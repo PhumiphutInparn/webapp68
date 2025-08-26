@@ -1,0 +1,21 @@
+.ex2{
+    border: 1px solid;
+    position: relative; /* สำคัญ: ทำให้คอนเทนเนอร์เป็นตัวอ้างอิงสำหรับข้อความ */
+}
+
+.image2{
+    height: 200px;
+    display: block;
+  
+}
+p{
+    position: absolute; /* ทำให้ข้อความอยู่เหนือองค์ประกอบอื่นๆ */
+    top: 100px;
+    left: 50px;
+    font-weight: bold;
+    background-color:rgba(245, 245, 245, 0.534); 
+    font-size: 30px;
+    
+}
+        
+        

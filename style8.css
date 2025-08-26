@@ -1,0 +1,46 @@
+.select{
+    position: relative;
+    width: 200px;
+    height: 100px;
+}
+
+.charact{
+   background-color: mediumaquamarine;
+   color: aliceblue;
+   text-align: center;
+   cursor: pointer;
+   border-radius: 5px;
+   padding: 10px;
+   box-shadow:  0 4px 15px rgba(49, 247, 214, 0.4); 
+   transition: background-color 0.3s ease;
+    
+}
+
+.charact :hover{
+    background-color: rgb(2, 255, 162);
+}
+
+.popout{
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+.popout a{
+    display: block;
+    padding: 10px 15px;
+    color: #333;
+    text-decoration: none;
+
+}
+
+.popout :hover{
+    background-color: #f0f0f0;
+}
+
+.select:hover > .popout,
+.charact :focus-within > .popout{
+    display: block;
+}

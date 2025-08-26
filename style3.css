@@ -1,0 +1,12 @@
+.list{
+    border: 1px solid #ccc;
+    height: 400px;
+    width: 250px;
+    overflow-y: scroll;
+    background-color: skyblue;
+    te
+}
+
+ul {
+    list-style: none;
+}

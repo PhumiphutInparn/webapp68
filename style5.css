@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    border: 1px solid ;
+
+}
+
+.con{
+    height: 300px;
+    width: 50%;
+    display: flex;
+    overflow-y: scroll;
+    padding: 20px;
+    
+    
+
+}
+
+.iteam img{
+    width: 5px;
+    height: 5px;
+    object-fit: cover;
+    border: 2px solid;
+    object-fit: cover;
+}
+
+.iteam{
+    scroll-snap-align: center;
+    display: flex;
+    
+}
+

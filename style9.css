@@ -1,0 +1,20 @@
+.ex9 tr td a{
+    margin: 0 10px;
+    padding: 10px 10px;
+    background-color: mediumaquamarine;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.3s ease, background-color 0.3s ease;
+    text-decoration: none;
+    color: white;
+}
+
+td :hover{
+    opacity: 0.5;
+}
+
+.ex9 tr td a :hover {
+    opacity: 1;
+}
+
